@@ -219,4 +219,14 @@ label{
         display:flex;
         flex-direction: column;
     }
+        #head h1{
+        height:40px;
+    }
+    #giffer{
+        width:300px;
+        height:250px;
+    }
+    #final{
+        font-family: "sans-serif";
+    }
 }
