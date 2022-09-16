@@ -1,0 +1,209 @@
+#bu:hover{
+    background-color: #1F2833;
+    color:#FFFFFF;
+    box-shadow: 3px 5px 6px rgba(0,0,0,0.1);
+    transform:scale(1.1);
+}
+/* #bu:hover::after{
+    content:'hii';
+    background-color: aqua;
+    background-size: cover;
+    bottom:100px;
+    left:0;
+    right:0;
+    position:absolute;
+    margin-top:15px;
+    padding:10px;
+    border-radius: 5px;
+} */
+
+
+button:active{
+    background-color: aqua;
+    
+}
+#boy{
+    font-family: "press start 2p","consolas","sans-serif";
+    font-size:18px;
+}
+#girl{
+    font-family: "press start 2p","consolas","sans-serif";
+    font-size:18px
+}
+#ah{
+    display:block;
+    text-align: center;
+    font-family: "press start 2p";
+    background-color:red;
+    background-repeat: no-repeat;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1F2833;
+}
+img:hover{
+    transform:scale(.5);
+
+}
+img:active{
+    transform:scaleX(56deg);
+}
+img{
+    width:38px;
+    height:38px;
+    border: 3px solid;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #45A29E;
+    border:1px solid;
+    border-radius:7px;
+    width:400px;
+    margin-top:5%;
+    padding:30px;
+    box-shadow: 12px 12px 5px rgba(0,0,0,0.1);
+}
+label{
+    cursor:pointer;
+}
+#bu:hover::before{
+    content: 'Dare to Click';
+    position:absolute;
+    width:50px;
+    height:30px;
+    overflow: hidden;
+    margin-top:10px;
+    padding: 6px;
+    background-color: #45A28E;
+    border-radius: 6px;
+    transform: translate(50%, 110%);
+    opacity:0.8;
+}
+#bu{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:#66FCF1;
+    background-color: #1F2833;
+    border-radius: 5px;
+    transition: transform 300ms ease-in-out;
+    box-shadow: 5px 4px 4px rgba(0,0,0,0.3);
+    margin-right:40px;
+    padding:12px;
+}
+#bu:active{
+    animation: hello 500ms ease-in-out;
+    background-color: #FFFFFF56;
+    color:black;
+}
+
+#head ol{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+}
+#head li{
+    list-style: none;
+    padding:15px;
+}
+#head a{
+    text-decoration: none;
+    color:#66FCF1;
+}
+#head li:hover{
+    background-color: #FFFFFF34;
+    border:1px;
+    box-shadow: 3px 6px 5px rgba(0,0,0,0.3);
+    border-radius:5px;
+}
+
+#head{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7px;
+    margin-right:7px;
+    color:#66FCF1;
+    position: sticky;
+}
+#mainie{
+    display:flex;
+    justify-content: center;
+    margin-bottom:3%;
+}
+
+@keyframes hello {
+    0%{
+        transform:scale(0.99)
+    }
+    50%{
+        transform:scale(1.1)
+    }
+    100%{
+        transform:scale(1)
+    }
+}
+input{
+    background-color: #C5C6C7;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+    border:0px;
+    height:20px;
+    padding:30px;
+    text-align: center;
+}
+label{
+    font-family: consolas;
+    padding: 10px;
+
+}
+.sec{
+    display:flex;
+    justify-content: center;
+}
+.pic{
+    border:0px;
+    height:75px;
+    width:50px;
+}
+.pic:hover{
+    display: block;
+    transform:scale(1);
+}
+
+#head h1{
+    background-color:#FFFFFF07;
+    border-radius: 5px;
+    padding:10px;
+    transition:transform 100ms ease-in-out;
+    width:180px;
+}
+
+#heading img{
+    width:180px;
+    border:none;
+    transform:scale(1);
+}
+#head h1:hover{
+    background-color: #FFFFFF20;
+    cursor:pointer;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+    transform:scale(1.08);
+}
+#giffer{
+    display:none;
+    margin-top: 15px;
+    margin-right:40px;
+    width:350px;
+    height:250px;
+    border:0px;
+}
+#giffer:hover{
+    transform:scale(1);
+}
