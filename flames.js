@@ -7,8 +7,10 @@ const outo=document.getElementById("final")
 const doccer=document.getElementById("heading")
 document.getElementById("bu").onclick = function(){
     boy=document.getElementById("boy").value;
+    boy=boy.toLowerCase();
     console.log(boy);
     girl=document.getElementById("girl").value;
+    girl=girl.toLowerCase();
     console.log(girl);
     sab=boy.length+girl.length;
     res=sab;
